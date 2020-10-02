@@ -1,4 +1,4 @@
-package com.example.aung_bar_lay
+package guru.nph.flottery
 
 import io.flutter.embedding.android.FlutterActivity
 
