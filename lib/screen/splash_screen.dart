@@ -11,7 +11,7 @@ class SplashScreen extends StatefulWidget {
 
 class _SplashScreenState extends State<SplashScreen> {
   _startTime() async {
-    var _duration = new Duration(seconds: 1);
+    var _duration = new Duration(seconds: 2);
     return new Timer(_duration, _route);
   }
 
@@ -36,7 +36,7 @@ class _SplashScreenState extends State<SplashScreen> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Image.asset('assets/image/fl_logo.png', fit: BoxFit.contain)
+            Image.asset('assets/image/fl_icon.png', fit: BoxFit.contain)
           ],
         ),
       ),

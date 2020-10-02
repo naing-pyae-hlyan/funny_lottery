@@ -61,7 +61,6 @@ class HomeScreen extends StatelessWidget {
           PinCodeTextField(
             backgroundColor: Colors.white,
             onChanged: (String value) {
-              print(value);
               number = value;
             },
             length: 5,
